@@ -1,0 +1,20 @@
+# Core HTTP & parsing
+requests>=2.31.0
+lxml>=4.9.3
+
+# RSS feed generation
+feedgenerator>=2.1.0
+
+# Logging & utilities (standard lib, listed for clarity)
+# logging
+# datetime
+# os
+
+# --- Development / CI tools ---
+flake8>=7.0.0
+pytest>=8.0.0
+
+# --- Security / DevSecOps ---
+bandit>=1.7.8
+pip-audit>=2.7.0
+safety>=3.0.0
