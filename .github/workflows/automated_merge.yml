@@ -2,7 +2,7 @@ name: Auto Merge Upwards
 
 on:
   workflow_run:
-    workflows: ["CI Quality & Security"]
+    workflows: ["CI Quality & Security"]   # MUST match your CI workflow name exactly
     types:
       - completed
 
@@ -12,28 +12,44 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo with full history
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # needed for merges
 
+      # 2️⃣ Configure Git
       - name: Configure Git
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
 
-      # feature/* → developers
-      - name: Merge feature to developers
-        if: startsWith(github.ref_name, 'feature/')
+      # 3️⃣ Determine source & target branch
+      - name: Determine merge target
+        id: vars
         run: |
-          git checkout developers
-          git merge origin/${{ github.ref_name }} --no-edit
-          git push origin developers
+          echo "SOURCE_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+          if [[ "${GITHUB_REF#refs/heads/}" == feature/* ]]; then
+            echo "TARGET_BRANCH=developers" >> $GITHUB_ENV
+          elif [[ "${GITHUB_REF#refs/heads/}" == "developers" ]]; then
+            echo "TARGET_BRANCH=main" >> $GITHUB_ENV
+          else
+            echo "TARGET_BRANCH=" >> $GITHUB_ENV
+          fi
+          echo "Source branch: ${GITHUB_REF#refs/heads/}"
+          echo "Target branch: $TARGET_BRANCH"
 
-      # developers → main
-      - name: Merge developers to main
-        if: github.ref_name == 'developers'
+      # 4️⃣ Skip if target branch is empty (nothing to merge)
+      - name: Skip if no target branch
+        if: ${{ env.TARGET_BRANCH == '' }}
+        run: echo "No auto-merge target for this branch, skipping."
+
+      # 5️⃣ Merge and push
+      - name: Merge source into target
+        if: ${{ env.TARGET_BRANCH != '' }}
         run: |
-          git checkout main
-          git merge origin/developers --no-edit
-          git push origin main
+          echo "Merging ${SOURCE_BRANCH} → ${TARGET_BRANCH}"
+          git fetch origin $TARGET_BRANCH
+          git checkout $TARGET_BRANCH
+          git merge origin/${SOURCE_BRANCH} --no-edit || (echo "Merge conflict! Aborting." && exit 1)
+          git push origin $TARGET_BRANCH
