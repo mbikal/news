@@ -1,2 +1,6 @@
 2026-01-01 21:23:44,062 - scraper - INFO - Parsed 0 new items from https://ekantipur.com/news/
 2026-01-01 21:40:42,824 - scraper - INFO - Parsed 27 new items from https://ekantipur.com/news/
+2026-01-02 19:27:33,192 - scraper - INFO - Parsed 18 new items from https://ekantipur.com/news/
+2026-01-02 19:27:33,193 - scraper - INFO - RSS feed successfully written to news_feed.xml
+2026-01-02 19:28:50,935 - scraper - INFO - Parsed 0 new items from https://ekantipur.com/news/
+2026-01-02 19:28:50,937 - scraper - INFO - RSS feed successfully written to rss/rss.xml
