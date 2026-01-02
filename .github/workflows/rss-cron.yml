@@ -2,8 +2,11 @@ name: Generate RSS Feed (Cron)
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
-  workflow_dispatch:         # allows manual run from GitHub UI
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   # ✅ THIS FIXES THE 403 ERROR
 
 jobs:
   generate-rss:
