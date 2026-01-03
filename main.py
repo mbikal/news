@@ -1,24 +1,24 @@
-from scraper.parser import parse_page
 import logging
-from  scraper.rss_generator import generate_rss_feed
+from scraper.scraper import scrape_news
+from scraper.rss_generator import generate_rss_feed
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-urls = [
-    "https://ekantipur.com/news/"
-]
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("main")
 
-all_articles = []
-for url in urls:
-    articles = parse_page(url)
-    all_articles.extend(articles)
+def main():
+    items = scrape_news()
 
-generate_rss_feed(
-    items=all_articles,
-    feed_title="News Nepali Feed",
-    feed_link="https://ekantipur.com/news/",
-    feed_description="Latest news articles from ekantipur.com",
-    output_file="rss/rss.xml"
-)
+    if not items:
+        logger.warning("No articles scraped. Exiting.")
+        return
+
+    generate_rss_feed(
+        items=items,
+        feed_title="My News Feed",
+        feed_link="https://mbikal.github.io/news/",
+        feed_description="Automatically scraped news feed",
+        output_file="rss/feed.xml",
+    )
+
+if __name__ == "__main__":
+    main()
