@@ -4,3 +4,9 @@
 2026-01-02 19:27:33,193 - scraper - INFO - RSS feed successfully written to news_feed.xml
 2026-01-02 19:28:50,935 - scraper - INFO - Parsed 0 new items from https://ekantipur.com/news/
 2026-01-02 19:28:50,937 - scraper - INFO - RSS feed successfully written to rss/rss.xml
+2026-01-03 14:00:33,961 - scraper - INFO - Parsed 10 new items from https://ekantipur.com/news/
+2026-01-03 14:00:33,961 - scraper - INFO - RSS updated with 10 new items
+2026-01-03 14:03:21,823 - scraper - INFO - Parsed 10 items from https://ekantipur.com/news/
+2026-01-03 14:03:21,824 - scraper - INFO - No new articles found. RSS feed not updated.
+2026-01-03 15:41:19,075 - scraper - INFO - Parsed 11 items from https://ekantipur.com/news/
+2026-01-03 15:41:19,076 - scraper - INFO - RSS updated with 1 new items

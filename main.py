@@ -1,5 +1,6 @@
 from scraper.parser import parse_page
 from scraper.rss_generator import generate_rss_feed
+from scraper.items_store import load_items, save_items
 import logging
 
 logging.basicConfig(
@@ -7,36 +8,35 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
 
-logger = logging.getLogger("main")
-
 urls = [
     "https://ekantipur.com/news/"
 ]
 
-def main():
-    all_articles = []
+# Load previously stored articles
+stored_items = load_items()
+stored_links = {item["link"] for item in stored_items}
 
-    for url in urls:
-        logger.info(f"Scraping: {url}")
-        articles = parse_page(url)
+new_items = []
 
-        if not articles:
-            logger.warning(f"No articles found for {url}")
-            continue
+# Scrape
+for url in urls:
+    scraped_items = parse_page(url)
 
-        all_articles.extend(articles)
+    for item in scraped_items:
+        if item["link"] not in stored_links:
+            new_items.append(item)
+            stored_items.append(item)
 
-    if not all_articles:
-        logger.warning("No articles scraped from any source. RSS not generated.")
-        return
+# Save updated items.json ONLY if new items exist
+if new_items:
+    save_items(stored_items)
 
     generate_rss_feed(
-        items=all_articles,
+        items=new_items,   # 👈 only new items go to RSS
         feed_title="News Nepali Feed",
         feed_link="https://ekantipur.com/news/",
         feed_description="Latest news articles from ekantipur.com",
-        output_file="rss/rss.xml",
+        output_file="rss/rss.xml"
     )
-
-if __name__ == "__main__":
-    main()
+else:
+    logging.info("No new articles found. RSS not updated.")
