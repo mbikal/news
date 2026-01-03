@@ -1,39 +1,48 @@
 from feedgenerator import Rss201rev2Feed
 import logging
 import os
+import json
+from datetime import datetime
 
-logger = logging.getLogger('scraper')
+logger = logging.getLogger("scraper")
 
-SEEN_FILE = "rss/seen_links.txt"
+SEEN_FILE = "rss/items.json"
+MAX_ITEMS = 20
 
 
-def load_seen_links():
+def load_items():
     if not os.path.exists(SEEN_FILE):
-        return set()
-    with open(SEEN_FILE, "r") as f:
-        return set(line.strip() for line in f)
+        return []
+    with open(SEEN_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def save_seen_links(links):
-    with open(SEEN_FILE, "a") as f:
-        for link in links:
-            f.write(link + "\n")
+def save_items(items):
+    with open(SEEN_FILE, "w", encoding="utf-8") as f:
+        json.dump(items, f, ensure_ascii=False, indent=2)
 
 
 def generate_rss_feed(items, feed_title, feed_link, feed_description, output_file):
-    seen_links = load_seen_links()
+    stored_items = load_items()
+    stored_links = {i["link"] for i in stored_items}
+
     new_items = []
-
-    # Filter only NEW articles
     for article in items:
-        link = article.get("link")
-        if link and link not in seen_links:
-            new_items.append(article)
+        if article["link"] not in stored_links:
+            new_items.append({
+                "title": article["title"],
+                "link": article["link"],
+                "description": article.get("description", article["title"]),
+                "pubdate": datetime.utcnow().isoformat()
+            })
 
-    # 🚫 NO new items → DO NOTHING
     if not new_items:
         logger.info("No new articles found. RSS feed not updated.")
         return
+
+    # Merge + keep newest
+    all_items = (new_items + stored_items)[:MAX_ITEMS]
+    save_items(all_items)
 
     feed = Rss201rev2Feed(
         title=feed_title,
@@ -42,23 +51,18 @@ def generate_rss_feed(items, feed_title, feed_link, feed_description, output_fil
         language="en",
     )
 
-    for article in new_items:
+    for article in all_items:
         feed.add_item(
-            title=article.get("title", "No Title"),
-            link=article.get("link", ""),
-            description=article.get("description", article.get("title", "")),
-            pubdate=article.get("pubdate"),
+            title=article["title"],
+            link=article["link"],
+            description=article["description"],
+            pubdate=datetime.fromisoformat(article["pubdate"]),
+            unique_id=article["link"],   # ✅ GUID
         )
 
     try:
         with open(output_file, "w", encoding="utf-8") as f:
             feed.write(f, "utf-8")
-
-        save_seen_links([a["link"] for a in new_items])
-
         logger.info(f"RSS updated with {len(new_items)} new items")
-
     except Exception as e:
         logger.error(f"Failed to write RSS feed: {e}")
-
-
