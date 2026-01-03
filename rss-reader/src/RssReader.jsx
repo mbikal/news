@@ -5,7 +5,7 @@ function RssReader() {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const RSS_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://mbikal.github.io/news/rss/rss.xml";
+  const RSS_URL = "https://api.rss2json.com/v1/api.json?rss_url=https://raw.githubusercontent.com/mbikal/news/main/rss/rss.xml";
 
   useEffect(() => {
     fetch(RSS_URL)
