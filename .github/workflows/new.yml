@@ -1,0 +1,5 @@
+- name: Run scraper and generate RSS
+  run: |
+    python main.py
+    echo "----- RSS FILE CONTENT -----"
+    cat rss/rss.xml

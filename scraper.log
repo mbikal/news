@@ -10,3 +10,5 @@
 2026-01-03 14:03:21,824 - scraper - INFO - No new articles found. RSS feed not updated.
 2026-01-03 15:41:19,075 - scraper - INFO - Parsed 11 items from https://ekantipur.com/news/
 2026-01-03 15:41:19,076 - scraper - INFO - RSS updated with 1 new items
+2026-01-03 19:43:10,190 - scraper - INFO - Parsed 15 items from https://ekantipur.com/news/
+2026-01-03 19:43:10,193 - scraper - INFO - RSS updated with 4 new items
