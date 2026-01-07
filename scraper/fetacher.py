@@ -30,9 +30,14 @@ def fetch_page_content(url):
     ),
     "Accept-Language": "en-US,en;q=0.9",
 }
+    proxy = {
+       "http": "http://wxcotnxm:33ru6c3lyuix@142.111.48.253:7030/",
+       "https": "http://wxcotnxm:33ru6c3lyuix@142.111.48.253:7030/"
+
+    }
 
     try:
-        response = requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers, proxies=proxy, timeout=15)
         response.raise_for_status()  # Raise an error for bad status codes
         tree = html.fromstring(response.content)
         return tree
