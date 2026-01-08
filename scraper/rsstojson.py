@@ -19,5 +19,5 @@ def rss_to_json(rss_url):
     return data
 if __name__ == "__main__":  
     rss_url = "https://raw.githubusercontent.com/mbikal/news/main/rss/rss.xml"
-    with open("/rss/rss_feed.json", "w", encoding="utf-8") as f:
+    with open("rss/rss_feed.json", "w", encoding="utf-8") as f:
         json.dump(rss_to_json(rss_url), f, ensure_ascii=False, indent=4)
