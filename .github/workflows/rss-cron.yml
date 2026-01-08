@@ -71,6 +71,8 @@ jobs:
           else
             echo "✓ RSS changes detected, committing..."
             git commit -m "Update RSS feed - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo "pulling latest changes with rebase..."
+            git oull --rebase origin main
             git push origin main
             echo "✓ Successfully pushed changes"
           fi
