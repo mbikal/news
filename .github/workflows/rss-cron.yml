@@ -63,6 +63,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin main
+          git reset --hard origin/main
           
           git add rss/rss.xml
           
@@ -71,7 +74,6 @@ jobs:
           else
             echo "✓ RSS changes detected, committing..."
             git commit -m "Update RSS feed - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            echo "pulling latest changes with rebase..."
             git pull --rebase origin main
             git push origin main
             echo "✓ Successfully pushed changes"
