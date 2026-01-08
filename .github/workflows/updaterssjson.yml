@@ -28,7 +28,7 @@ jobs:
 
       - name: Generate RSS json
         run: |
-          python scraper/rss_to_json.py
+          python scraper/rsstijson.py
 
       - name: Commit and push changes
         run: |
