@@ -2,88 +2,100 @@
     "feed_title": "News Nepali Feed",
     "items": [
         {
+            "title": "शिक्षामन्त्री पुनको प्रश्न : विदेश घुमेर मात्रै अर्थतन्त्र बन्छ ?",
+            "link": "https://ekantipur.com/news/2026/01/09/education-minister-puns-question-can-the-economy-be-built-only-by-traveling-abroad-01-59.html",
+            "description": "शिक्षामन्त्री पुनको प्रश्न : विदेश घुमेर मात्रै अर्थतन्त्र बन्छ ?",
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
+        },
+        {
+            "title": "उज्ज्वल थापाको जीवनीमा आधारित वृत्तचित्र ‘दिमाग घोच्ने मान्छे’ प्रदर्शनमा",
+            "link": "https://ekantipur.com/news/2026/01/09/documentary-dimaag-ghochne-manche-based-on-ujjwal-thapas-biography-to-be-screened-45-36.html",
+            "description": "उज्ज्वल थापाको जीवनीमा आधारित वृत्तचित्र ‘दिमाग घोच्ने मान्छे’ प्रदर्शनमा",
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
+        },
+        {
             "title": "मन्त्री गुप्ताको अमेरिका भ्रमण : विभाजित एनआरएनएबीच विज्ञप्तिबाजी",
             "link": "https://ekantipur.com/news/2026/01/09/minister-guptas-us-visit-statement-making-among-divided-nrnas-17-21.html",
             "description": "मन्त्री गुप्ताको अमेरिका भ्रमण : विभाजित एनआरएनएबीच विज्ञप्तिबाजी",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "वर्तमान सरकारमा बस्नेलाई कुनै दलप्रति ढल्कने छुट छैन : गृहमन्त्री अर्याल",
             "link": "https://ekantipur.com/news/2026/01/09/those-in-the-current-government-have-no-right-to-lean-towards-any-party-home-minister-aryal-46-59.html",
             "description": "वर्तमान सरकारमा बस्नेलाई कुनै दलप्रति ढल्कने छुट छैन : गृहमन्त्री अर्याल",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "अस्ताए माओ त्से तुङ र इन्दिरा गान्धीलाई सारंगी सुनाएका खिमबहादुर गन्धर्व",
             "link": "https://ekantipur.com/news/2026/01/09/khim-bahadur-gandharva-who-played-the-sarangi-for-mao-zedong-and-indira-gandhi-died-29-48.html",
             "description": "अस्ताए माओ त्से तुङ र इन्दिरा गान्धीलाई सारंगी सुनाएका खिमबहादुर गन्धर्व",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "गाउँ-गाउँ पुग्यो पिरामिड शैलीको अनलाइन ठगी",
             "link": "https://ekantipur.com/news/2026/01/09/pyramid-style-online-fraud-reaches-every-village-46-21.html",
             "description": "गाउँ-गाउँ पुग्यो पिरामिड शैलीको अनलाइन ठगी",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "माघदेखि दैनिक १० हजार स्मार्ट लाइसेन्स छाप्ने तयारीमा सुरक्षण मुद्रण केन्द्र",
             "link": "https://ekantipur.com/news/2026/01/09/security-printing-center-preparing-to-print-10000-smart-licenses-daily-from-magh-58-40.html",
             "description": "माघदेखि दैनिक १० हजार स्मार्ट लाइसेन्स छाप्ने तयारीमा सुरक्षण मुद्रण केन्द्र",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "पोखरामा ‘रेडियो अन ह्विल्स’",
             "link": "https://ekantipur.com/news/2026/01/09/radio-on-wheels-in-pokhara-24-28.html",
             "description": "पोखरामा ‘रेडियो अन ह्विल्स’",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "रिलायन्सविरुद्ध प्रचार बन्द गर्न अदालतको आदेश",
             "link": "https://ekantipur.com/news/2026/01/09/court-orders-to-stop-campaign-against-reliance-19-36.html",
             "description": "रिलायन्सविरुद्ध प्रचार बन्द गर्न अदालतको आदेश",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "कुरिलोको मूल्य किलोकै ५ हजार रुपैयाँ",
             "link": "https://ekantipur.com/news/2026/01/09/the-price-of-kurilo-is-5-thousand-rupees-per-kilogram-16-53.html",
             "description": "कुरिलोको मूल्य किलोकै ५ हजार रुपैयाँ",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "जेन-जी अभियन्ता तथा विज्ञ भन्छन्- 'चुनाव जित्ने मात्र उद्देश्य जोखिमपूर्ण'",
             "link": "https://ekantipur.com/news/2026/01/09/gen-g-activist-and-expert-says-the-sole-objective-of-winning-elections-is-risky-55-48.html",
             "description": "जेन-जी अभियन्ता तथा विज्ञ भन्छन्- 'चुनाव जित्ने मात्र उद्देश्य जोखिमपूर्ण'",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "निर्वाचन प्रहरीमा आजदेखि आवेदन खुला",
             "link": "https://ekantipur.com/news/2026/01/09/applications-open-for-election-police-from-today-51-10.html",
             "description": "निर्वाचन प्रहरीमा आजदेखि आवेदन खुला",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "१९ वर्षपछि खुल्यो गौर हत्याकाण्डको फाइल, कहाँसम्म पुग्ला अनुसन्धान ?",
             "link": "https://ekantipur.com/news/2026/01/09/gaur-murder-case-file-opened-after-19-years-how-far-will-the-investigation-go-37-47.html",
             "description": "१९ वर्षपछि खुल्यो गौर हत्याकाण्डको फाइल, कहाँसम्म पुग्ला अनुसन्धान ?",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "असावधानीले बढे आगलागीका घटना",
             "link": "https://ekantipur.com/news/2026/01/09/accidental-fire-incidents-on-the-rise-32-38.html",
             "description": "असावधानीले बढे आगलागीका घटना",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "४० माइक्रोनभन्दा कमका प्लास्टिक बिक्री नगर्न विभागको निर्देशन",
             "link": "https://ekantipur.com/news/2026/01/09/department-instructs-not-to-sell-plastics-less-than-40-microns-29-23.html",
             "description": "४० माइक्रोनभन्दा कमका प्लास्टिक बिक्री नगर्न विभागको निर्देशन",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "देशभरका मतदाताको विवरण लिन शुल्क तिर्नुपर्ने",
             "link": "https://ekantipur.com/news/2026/01/09/fees-must-be-paid-to-obtain-voter-details-across-the-country-26-35.html",
             "description": "देशभरका मतदाताको विवरण लिन शुल्क तिर्नुपर्ने",
-            "published": "Fri, 09 Jan 2026 06:59:09 -0000"
+            "published": "Fri, 09 Jan 2026 07:31:34 -0000"
         },
         {
             "title": "यी हुन् कांग्रेसका राष्ट्रिय सभा चुनावका ९ उम्मेदवार",
@@ -107,18 +119,6 @@
             "title": "सधैं सत्ताको वरिपरिभित्र घुमिरहने सुनुवार चौथोपटक मन्त्री",
             "link": "https://ekantipur.com/news/2026/01/06/sunuwar-who-always-hovers-around-power-becomes-minister-for-the-fourth-time-34-28.html",
             "description": "सधैं सत्ताको वरिपरिभित्र घुमिरहने सुनुवार चौथोपटक मन्त्री",
-            "published": "Wed, 07 Jan 2026 06:15:34 -0000"
-        },
-        {
-            "title": "सामाजिक सद्‌भाव कायम राख्न गृहद्वारा ७७ वटै जिल्ला प्रशासन कार्यालयलाई १० बुँदे सर्कुलर जारी",
-            "link": "https://ekantipur.com/news/2026/01/06/home-ministry-issues-10-point-circular-to-all-77-district-administration-offices-to-maintain-social-harmony-30-13.html",
-            "description": "सामाजिक सद्‌भाव कायम राख्न गृहद्वारा ७७ वटै जिल्ला प्रशासन कार्यालयलाई १० बुँदे सर्कुलर जारी",
-            "published": "Wed, 07 Jan 2026 06:15:34 -0000"
-        },
-        {
-            "title": "सूचना तथा प्रसारण विभागका तत्कालीन महानिर्देशक परियारसहित ७ जनालाई भ्रष्टाचार मुद्दामा विशेष अदालतले दियो सफाइ",
-            "link": "https://ekantipur.com/news/2026/01/06/a-special-court-acquitted-seven-people-including-the-then-director-general-of-the-department-of-information-and-broadcasting-in-a-corruption-case-05-40.html",
-            "description": "सूचना तथा प्रसारण विभागका तत्कालीन महानिर्देशक परियारसहित ७ जनालाई भ्रष्टाचार मुद्दामा विशेष अदालतले दियो सफाइ",
             "published": "Wed, 07 Jan 2026 06:15:34 -0000"
         }
     ]
