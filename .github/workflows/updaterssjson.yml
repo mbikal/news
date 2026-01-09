@@ -2,7 +2,7 @@ name: Update RSS json feed
 
 on:
   schedule:
-    - cron: '*/31 * * * *'  # every 31 minutes
+    - cron: '*/35 * * * *'  # every 31 minutes
   workflow_dispatch:
 
 permissions:
