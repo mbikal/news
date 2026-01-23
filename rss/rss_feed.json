@@ -2,70 +2,82 @@
     "feed_title": "News Nepali Feed",
     "items": [
         {
+            "title": "राष्ट्रिय सभामा पेस भए तीन अध्यादेश",
+            "link": "https://ekantipur.com/news/2026/01/23/three-ordinances-presented-in-the-national-assembly-19-27.html",
+            "description": "राष्ट्रिय सभामा पेस भए तीन अध्यादेश",
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
+        },
+        {
+            "title": "बालेन्द्रले चढिरहेको गाडी कसको हो ?",
+            "link": "https://ekantipur.com/news/2026/01/23/whose-car-is-balendra-riding-in-02-48.html",
+            "description": "बालेन्द्रले चढिरहेको गाडी कसको हो ?",
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
+        },
+        {
             "title": "दल विशेषको सासंद भन्दा सबैको चाहना बमोजिम अभिभावक बन्न उम्मेदवारी फिर्ता लिएँ: बाबुराम भट्टराई",
             "link": "https://ekantipur.com/news/2026/01/23/i-withdrew-my-candidacy-to-become-a-guardian-rather-than-a-member-of-a-particular-party-baburam-bhattarai-22-47.html",
             "description": "दल विशेषको सासंद भन्दा सबैको चाहना बमोजिम अभिभावक बन्न उम्मेदवारी फिर्ता लिएँ: बाबुराम भट्टराई",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "भयरहित वातावरणमा चुनाव गराउन प्रतिबद्ध छौं : आईजीपी अर्याल",
             "link": "https://ekantipur.com/news/2026/01/23/we-are-committed-to-holding-elections-in-a-fear-free-environment-igp-aryal-19-18.html",
             "description": "भयरहित वातावरणमा चुनाव गराउन प्रतिबद्ध छौं : आईजीपी अर्याल",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "गोरखाका दुवै क्षेत्रबाट प्रलोपको उम्मेदवारी फिर्ता",
             "link": "https://ekantipur.com/news/2026/01/23/pralops-candidacy-withdrawn-from-both-constituencies-of-gorkha-00-47.html",
             "description": "गोरखाका दुवै क्षेत्रबाट प्रलोपको उम्मेदवारी फिर्ता",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "बाबुरामलाई रास्वपाले भन्यो- 'उम्मेदवारी फिर्ता लिएर अनुकरणीय देशभक्तिपूर्ण उदाहरण प्रस्तुत गर्नुस्'",
             "link": "https://ekantipur.com/news/2026/01/23/the-rashtriya-swayamsevak-sangh-rss-told-baburam-to-withdraw-his-candidacy-and-set-an-exemplary-patriotic-example-26-56.html",
             "description": "बाबुरामलाई रास्वपाले भन्यो- 'उम्मेदवारी फिर्ता लिएर अनुकरणीय देशभक्तिपूर्ण उदाहरण प्रस्तुत गर्नुस्'",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "राष्ट्रपति, प्रधानमन्त्री लगायतले गरे वसन्त श्रवण",
             "link": "https://ekantipur.com/news/2026/01/23/the-president-prime-minister-and-others-attended-the-spring-hearing-56-12.html",
             "description": "राष्ट्रपति, प्रधानमन्त्री लगायतले गरे वसन्त श्रवण",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "वैशाखयताको विपद्‌मा ४२४ को मृत्यु, १६४३ घाइते",
             "link": "https://ekantipur.com/news/2026/01/23/424-killed-1643-injured-in-baisakhya-disaster-53-41.html",
             "description": "वैशाखयताको विपद्‌मा ४२४ को मृत्यु, १६४३ घाइते",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "१८ वटा फर्ममा विभागको निरीक्षण, दुई लाख एक हजार जरिवाना",
             "link": "https://ekantipur.com/news/2026/01/23/department-inspects-18-firms-fines-rs-201000-48-48.html",
             "description": "१८ वटा फर्ममा विभागको निरीक्षण, दुई लाख एक हजार जरिवाना",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "पश्चिम नेपालमा वर्षा र हिमपातको सम्भावना",
             "link": "https://ekantipur.com/news/2026/01/23/chance-of-rain-and-snowfall-in-western-nepal-44-07.html",
             "description": "पश्चिम नेपालमा वर्षा र हिमपातको सम्भावना",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "आज वसन्तपञ्चमी मनाइँदै",
             "link": "https://ekantipur.com/news/2026/01/23/basant-panchami-is-being-celebrated-today-38-07.html",
             "description": "आज वसन्तपञ्चमी मनाइँदै",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "निर्वाचन प्रहरीको नियुक्ति १५ माघमा, परिचालन २५ माघबाट",
             "link": "https://ekantipur.com/news/2026/01/23/election-police-to-be-appointed-on-15th-magh-to-be-mobilized-from-15th-magh-18-28.html",
             "description": "निर्वाचन प्रहरीको नियुक्ति १५ माघमा, परिचालन २५ माघबाट",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "निर्वाचन प्रहरीको परीक्षा",
             "link": "https://ekantipur.com/news/2026/01/23/election-police-exam-15-43.html",
             "description": "निर्वाचन प्रहरीको परीक्षा",
-            "published": "Fri, 23 Jan 2026 09:52:40 -0000"
+            "published": "Fri, 23 Jan 2026 10:51:02 -0000"
         },
         {
             "title": "यी हुन् कांग्रेसका राष्ट्रिय सभा चुनावका ९ उम्मेदवार",
@@ -107,18 +119,6 @@
             "title": "सुशासनका लागि सूचना प्रविधिको विकास अत्यावश्यक : सञ्चारमन्त्री खरेल",
             "link": "https://ekantipur.com/news/2026/01/06/development-of-information-technology-essential-for-good-governance-communications-minister-kharel-50-49.html",
             "description": "सुशासनका लागि सूचना प्रविधिको विकास अत्यावश्यक : सञ्चारमन्त्री खरेल",
-            "published": "Wed, 07 Jan 2026 06:15:34 -0000"
-        },
-        {
-            "title": "सर्वदलीय बैठकबाट विवाद टुंगिएसँगै वीरगन्जमा ‘कर्फ्यु’ हटाइयो",
-            "link": "https://ekantipur.com/news/2026/01/06/curfew-lifted-in-birgunj-after-dispute-resolved-at-all-party-meeting-02-59.html",
-            "description": "सर्वदलीय बैठकबाट विवाद टुंगिएसँगै वीरगन्जमा ‘कर्फ्यु’ हटाइयो",
-            "published": "Wed, 07 Jan 2026 06:15:34 -0000"
-        },
-        {
-            "title": "ओलीले पहिलो पटक गरेको प्रतिनिधिसभा विघटनको फैसलाको पूर्णपाठ सार्वजनिक",
-            "link": "https://ekantipur.com/news/2026/01/06/full-text-of-olis-first-decision-to-dissolve-the-house-of-representatives-made-public-54-11.html",
-            "description": "ओलीले पहिलो पटक गरेको प्रतिनिधिसभा विघटनको फैसलाको पूर्णपाठ सार्वजनिक",
             "published": "Wed, 07 Jan 2026 06:15:34 -0000"
         }
     ]
