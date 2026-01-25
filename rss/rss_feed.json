@@ -2,82 +2,88 @@
     "feed_title": "News Nepali Feed",
     "items": [
         {
+            "title": "निर्वाचन आचारसंहितामा नागरिक सरोकार",
+            "link": "https://ekantipur.com/news/2026/01/25/citizen-concerns-in-the-election-code-of-conduct-51-56.html",
+            "description": "निर्वाचन आचारसंहितामा नागरिक सरोकार",
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
+        },
+        {
             "title": "सुदूरपश्चिम र कर्णालीमा भारी हिमपात",
             "link": "https://ekantipur.com/news/2026/01/25/heavy-snowfall-in-the-far-west-and-karnali-25-01.html",
             "description": "सुदूरपश्चिम र कर्णालीमा भारी हिमपात",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "दोहोरो आईजीनविरुद्ध पियोर इनर्जीको रिटमा अदालतले दिएन अन्तरिम आदेश",
             "link": "https://ekantipur.com/news/2026/01/24/court-does-not-grant-interim-order-on-pure-energys-writ-against-dual-ig-24-16.html",
             "description": "दोहोरो आईजीनविरुद्ध पियोर इनर्जीको रिटमा अदालतले दिएन अन्तरिम आदेश",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "मिथ्या सूचनाविरुद्ध काठमाडौं सम्मेलन सुरु",
             "link": "https://ekantipur.com/news/2026/01/24/kathmandu-conference-against-misinformation-begins-41-16.html",
             "description": "मिथ्या सूचनाविरुद्ध काठमाडौं सम्मेलन सुरु",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "मौसम बदली : कुनकुन जिल्लामा भयो वर्षा र हिमपात ?",
             "link": "https://ekantipur.com/news/2026/01/24/weather-changes-which-districts-have-received-rain-and-snowfall-32-16.html",
             "description": "मौसम बदली : कुनकुन जिल्लामा भयो वर्षा र हिमपात ?",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "हिमपातले जनजीवन कष्टकर, किसानलाई राहत",
             "link": "https://ekantipur.com/news/2026/01/24/snowfall-makes-life-difficult-for-people-relief-for-farmers-57-12.html",
             "description": "हिमपातले जनजीवन कष्टकर, किसानलाई राहत",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "सशस्त्रको अवार्ड : विन्ध्यवासिनीलाई उत्कृष्ट वाहिनी र भट्टचनलाई लाइफटाइम अचिभमेन्ट",
             "link": "https://ekantipur.com/news/2026/01/24/armed-forces-awards-vindhyabasini-gets-best-brigade-and-bhattachan-gets-lifetime-achievement-48-29.html",
             "description": "सशस्त्रको अवार्ड : विन्ध्यवासिनीलाई उत्कृष्ट वाहिनी र भट्टचनलाई लाइफटाइम अचिभमेन्ट",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "उपल्लो डोल्पामा मतदाता फर्काउने चिन्ता, बेंसी झरेकाको विवरण संकलन गरिँदै",
             "link": "https://ekantipur.com/news/2026/01/24/concerns-over-voter-turnout-in-upper-dolpa-details-of-those-who-fell-into-the-valley-are-being-collected-21-21.html",
             "description": "उपल्लो डोल्पामा मतदाता फर्काउने चिन्ता, बेंसी झरेकाको विवरण संकलन गरिँदै",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "गैसस महासंघ नेपालको तेस्रो पूर्ण बैठक सम्पन्न, निष्पक्ष निर्वाचनको माग",
             "link": "https://ekantipur.com/news/2026/01/24/third-plenary-meeting-of-ngo-federation-of-nepal-concludes-demands-fair-elections-27-06.html",
             "description": "गैसस महासंघ नेपालको तेस्रो पूर्ण बैठक सम्पन्न, निष्पक्ष निर्वाचनको माग",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "‌ऋषि धमला चुनावी अभियानका क्रममा साइकलबाट लडेका हुन् ?",
             "link": "https://ekantipur.com/news/2026/01/24/did-rishi-dhamala-fight-on-a-bicycle-during-the-election-campaign-28-07.html",
             "description": "‌ऋषि धमला चुनावी अभियानका क्रममा साइकलबाट लडेका हुन् ?",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "आज अन्तर्राष्ट्रिय शिक्षा दिवस मनाइँदै",
             "link": "https://ekantipur.com/news/2026/01/24/international-education-day-is-being-celebrated-today-51-17.html",
             "description": "आज अन्तर्राष्ट्रिय शिक्षा दिवस मनाइँदै",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "पूर्वमन्त्री नन्दन दत्तको निधन",
             "link": "https://ekantipur.com/news/2026/01/24/former-minister-nandan-dutt-passes-away-44-13.html",
             "description": "पूर्वमन्त्री नन्दन दत्तको निधन",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "प्रतिनिधिसभा निर्वाचन : समानुपातिकतर्फको ५० लाख मतपत्र छाप्न बाँकी",
             "link": "https://ekantipur.com/news/2026/01/24/house-of-representatives-election-5-million-ballot-papers-for-proportional-representation-yet-to-be-printed-14-48.html",
             "description": "प्रतिनिधिसभा निर्वाचन : समानुपातिकतर्फको ५० लाख मतपत्र छाप्न बाँकी",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "कर्णाली र सुदूरपश्चिमका हिमाली क्षेत्रमा हिमपात, कृषक उत्साहित",
             "link": "https://ekantipur.com/news/2026/01/24/snowfall-in-mountainous-areas-of-karnali-and-sudurpaschim-farmers-excited-44-24.html",
             "description": "कर्णाली र सुदूरपश्चिमका हिमाली क्षेत्रमा हिमपात, कृषक उत्साहित",
-            "published": "Sun, 25 Jan 2026 01:43:20 -0000"
+            "published": "Sun, 25 Jan 2026 03:51:40 -0000"
         },
         {
             "title": "यी हुन् कांग्रेसका राष्ट्रिय सभा चुनावका ९ उम्मेदवार",
@@ -113,12 +119,6 @@
             "title": "सूचना तथा प्रसारण विभागका तत्कालीन महानिर्देशक परियारसहित ७ जनालाई भ्रष्टाचार मुद्दामा विशेष अदालतले दियो सफाइ",
             "link": "https://ekantipur.com/news/2026/01/06/a-special-court-acquitted-seven-people-including-the-then-director-general-of-the-department-of-information-and-broadcasting-in-a-corruption-case-05-40.html",
             "description": "सूचना तथा प्रसारण विभागका तत्कालीन महानिर्देशक परियारसहित ७ जनालाई भ्रष्टाचार मुद्दामा विशेष अदालतले दियो सफाइ",
-            "published": "Wed, 07 Jan 2026 06:15:34 -0000"
-        },
-        {
-            "title": "सुशासनका लागि सूचना प्रविधिको विकास अत्यावश्यक : सञ्चारमन्त्री खरेल",
-            "link": "https://ekantipur.com/news/2026/01/06/development-of-information-technology-essential-for-good-governance-communications-minister-kharel-50-49.html",
-            "description": "सुशासनका लागि सूचना प्रविधिको विकास अत्यावश्यक : सञ्चारमन्त्री खरेल",
             "published": "Wed, 07 Jan 2026 06:15:34 -0000"
         }
     ]
