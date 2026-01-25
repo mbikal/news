@@ -2,70 +2,82 @@
     "feed_title": "News Nepali Feed",
     "items": [
         {
+            "title": "रेशम चाैधरीकाे रिटमा अन्तरिम आदेश अस्वीकार, उम्मेदवार हुन नपाउने",
+            "link": "https://ekantipur.com/news/2026/01/25/resham-chaudharys-writ-petition-denied-interim-order-barred-from-running-as-a-candidate-01-19.html",
+            "description": "रेशम चाैधरीकाे रिटमा अन्तरिम आदेश अस्वीकार, उम्मेदवार हुन नपाउने",
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
+        },
+        {
+            "title": "सामाजिक सञ्जालमा भ्रम छर्नेलाई कानुनी दायरामा ल्याउन आदेश कुर्नु पर्दैन : गृहमन्त्री अर्याल",
+            "link": "https://ekantipur.com/news/2026/01/25/no-need-to-wait-for-an-order-to-bring-those-spreading-confusion-on-social-media-to-justice-home-minister-aryal-52-57.html",
+            "description": "सामाजिक सञ्जालमा भ्रम छर्नेलाई कानुनी दायरामा ल्याउन आदेश कुर्नु पर्दैन : गृहमन्त्री अर्याल",
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
+        },
+        {
             "title": "इन्जिनमा समस्या आएपछि टर्किसको वाइडबडी विमान टेकअफ नगरी पार्किङ-वेमै फर्काइयाे",
             "link": "https://ekantipur.com/news/2026/01/25/turkish-wide-body-plane-returns-to-parking-lot-without-taking-off-after-engine-problem-23-15.html",
             "description": "इन्जिनमा समस्या आएपछि टर्किसको वाइडबडी विमान टेकअफ नगरी पार्किङ-वेमै फर्काइयाे",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "नेपाल खुला विश्वविद्यालयबाट ५४५ विद्यार्थी दीक्षित",
             "link": "https://ekantipur.com/news/2026/01/25/545-students-graduate-from-nepal-open-university-18-46.html",
             "description": "नेपाल खुला विश्वविद्यालयबाट ५४५ विद्यार्थी दीक्षित",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "साउदी-नेपालबीच आज श्रम सम्झौता, मन्त्री भण्डारी साउदी प्रस्थान",
             "link": "https://ekantipur.com/news/2026/01/25/saudi-nepal-labor-agreement-signed-today-minister-bhandari-leaves-for-saudi-arabia-50-53.html",
             "description": "साउदी-नेपालबीच आज श्रम सम्झौता, मन्त्री भण्डारी साउदी प्रस्थान",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "राष्ट्रिय सभा निर्वाचनमा ५० प्रतिशतभन्दा बढी मत खस्यो",
             "link": "https://ekantipur.com/news/2026/01/25/more-than-50-percent-of-the-votes-were-cast-in-the-national-assembly-elections-38-10.html",
             "description": "राष्ट्रिय सभा निर्वाचनमा ५० प्रतिशतभन्दा बढी मत खस्यो",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "नक्कली भुटानी शरणार्थी प्रकरण : जिल्ला अदालतमा तोकियो पेसी",
             "link": "https://ekantipur.com/news/2026/01/25/fake-bhutanese-refugee-case-case-fixed-in-district-court-29-59.html",
             "description": "नक्कली भुटानी शरणार्थी प्रकरण : जिल्ला अदालतमा तोकियो पेसी",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "रविसहितकाे सम्पत्ति शुद्धीकरण र संगठित अपराध मुद्दा फिर्ता लिने निर्णयविरुद्धको रिट सुनुवाइ हुँदै",
             "link": "https://ekantipur.com/news/2026/01/25/writ-petition-against-decision-to-withdraw-money-laundering-and-organized-crime-cases-against-ravi-being-heard-10-48.html",
             "description": "रविसहितकाे सम्पत्ति शुद्धीकरण र संगठित अपराध मुद्दा फिर्ता लिने निर्णयविरुद्धको रिट सुनुवाइ हुँदै",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "रेशम चौधरीको उम्मेदवारी खारेजीविरुद्धको रिट न्यायाधीश ढकालकाे इजलासमा",
             "link": "https://ekantipur.com/news/2026/01/25/writ-petition-against-cancellation-of-resham-chaudharys-candidacy-before-judge-dhakals-bench-12-38.html",
             "description": "रेशम चौधरीको उम्मेदवारी खारेजीविरुद्धको रिट न्यायाधीश ढकालकाे इजलासमा",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "प्रतिनिधिसभा निर्वाचन : उम्मेदवारको वैयक्तिक विवरण सार्वजनिक",
             "link": "https://ekantipur.com/news/2026/01/25/house-of-representatives-election-candidates-personal-details-made-public-00-32.html",
             "description": "प्रतिनिधिसभा निर्वाचन : उम्मेदवारको वैयक्तिक विवरण सार्वजनिक",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "सार्वजनिक सम्पत्तिमा आगजनीदेखि भोट माग्दा पनि राष्ट्रिय झन्डा प्रयोग",
             "link": "https://ekantipur.com/news/2026/01/25/from-arson-to-public-property-to-using-the-national-flag-to-solicit-votes-00-41.html",
             "description": "सार्वजनिक सम्पत्तिमा आगजनीदेखि भोट माग्दा पनि राष्ट्रिय झन्डा प्रयोग",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "निर्वाचन आचारसंहितामा नागरिक सरोकार",
             "link": "https://ekantipur.com/news/2026/01/25/citizen-concerns-in-the-election-code-of-conduct-51-56.html",
             "description": "निर्वाचन आचारसंहितामा नागरिक सरोकार",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "सुदूरपश्चिम र कर्णालीमा भारी हिमपात",
             "link": "https://ekantipur.com/news/2026/01/25/heavy-snowfall-in-the-far-west-and-karnali-25-01.html",
             "description": "सुदूरपश्चिम र कर्णालीमा भारी हिमपात",
-            "published": "Sun, 25 Jan 2026 09:42:45 -0000"
+            "published": "Sun, 25 Jan 2026 10:45:49 -0000"
         },
         {
             "title": "यी हुन् कांग्रेसका राष्ट्रिय सभा चुनावका ९ उम्मेदवार",
@@ -107,18 +119,6 @@
             "title": "सुशासनका लागि सूचना प्रविधिको विकास अत्यावश्यक : सञ्चारमन्त्री खरेल",
             "link": "https://ekantipur.com/news/2026/01/06/development-of-information-technology-essential-for-good-governance-communications-minister-kharel-50-49.html",
             "description": "सुशासनका लागि सूचना प्रविधिको विकास अत्यावश्यक : सञ्चारमन्त्री खरेल",
-            "published": "Wed, 07 Jan 2026 06:15:34 -0000"
-        },
-        {
-            "title": "सर्वदलीय बैठकबाट विवाद टुंगिएसँगै वीरगन्जमा ‘कर्फ्यु’ हटाइयो",
-            "link": "https://ekantipur.com/news/2026/01/06/curfew-lifted-in-birgunj-after-dispute-resolved-at-all-party-meeting-02-59.html",
-            "description": "सर्वदलीय बैठकबाट विवाद टुंगिएसँगै वीरगन्जमा ‘कर्फ्यु’ हटाइयो",
-            "published": "Wed, 07 Jan 2026 06:15:34 -0000"
-        },
-        {
-            "title": "ओलीले पहिलो पटक गरेको प्रतिनिधिसभा विघटनको फैसलाको पूर्णपाठ सार्वजनिक",
-            "link": "https://ekantipur.com/news/2026/01/06/full-text-of-olis-first-decision-to-dissolve-the-house-of-representatives-made-public-54-11.html",
-            "description": "ओलीले पहिलो पटक गरेको प्रतिनिधिसभा विघटनको फैसलाको पूर्णपाठ सार्वजनिक",
             "published": "Wed, 07 Jan 2026 06:15:34 -0000"
         }
     ]
